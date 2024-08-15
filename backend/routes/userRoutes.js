@@ -21,4 +21,5 @@ router.post("/forgot-password", forgotPassword);
 router.get("/get-users", protect, authorOnly, getUsers);
 router.get("/login-status", loginStatus);
 
+
 module.exports = router
